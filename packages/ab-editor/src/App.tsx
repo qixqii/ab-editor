@@ -1,6 +1,11 @@
 import React from "react";
+import AbEditor from "./AbEditor";
 function App() {
-  return <>ab-editor</>;
+  return (
+    <>
+      <AbEditor />
+    </>
+  );
 }
 
 export default App;

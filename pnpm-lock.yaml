@@ -10,6 +10,9 @@ importers:
 
   packages/ab-editor:
     dependencies:
+      '@tiptap/extension-placeholder':
+        specifier: ^2.5.8
+        version: 2.5.8(@tiptap/core@2.5.8)(@tiptap/pm@2.5.8)
       '@tiptap/pm':
         specifier: ^2.5.8
         version: 2.5.8
@@ -776,6 +779,16 @@ packages:
       '@tiptap/core': ^2.5.8
     dependencies:
       '@tiptap/core': 2.5.8(@tiptap/pm@2.5.8)
+    dev: false
+
+  /@tiptap/extension-placeholder@2.5.8(@tiptap/core@2.5.8)(@tiptap/pm@2.5.8):
+    resolution: {integrity: sha512-mvRl73OM5jBXVtDRLSTvp8/4+0mS2J2+ZcuiAHjABwEsZRCfJsiqty5NisOxSuy/AQtm8TK2kyt6ZCXQ2VRGig==}
+    peerDependencies:
+      '@tiptap/core': ^2.5.8
+      '@tiptap/pm': ^2.5.8
+    dependencies:
+      '@tiptap/core': 2.5.8(@tiptap/pm@2.5.8)
+      '@tiptap/pm': 2.5.8
     dev: false
 
   /@tiptap/extension-strike@2.5.8(@tiptap/core@2.5.8):
